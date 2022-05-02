@@ -26,13 +26,13 @@ app.post('/register', (req, res) => {
 
 
 
-app.get('/view-feedbacks', (req, res) => {
-    // res.sendFile(path.resolve(__dirname + 'index.html'))
-    dbCon.then(function (db) {
-        dbCon.collection('feedbacks').find({}).toArray().then(function (feedbacks) {
-            res.status(200).json(feedbacks);
-        });
-    });
-});
+// app.get('/view-feedbacks', (req, res) => {
+//     // res.sendFile(path.resolve(__dirname + 'index.html'))
+//     dbCon.then(function (db) {
+//         dbCon.collection('feedbacks').find({}).toArray().then(function (feedbacks) {
+//             res.status(200).json(feedbacks);
+//         });
+//     });
+// });
 
 
