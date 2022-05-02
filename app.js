@@ -25,7 +25,7 @@ app.post('/register', (req, res) => {
 })
 
 
-
+// will work on query to read req.body inputs in form field
 // app.get('/view-feedbacks', (req, res) => {
 //     // res.sendFile(path.resolve(__dirname + 'index.html'))
 //     dbCon.then(function (db) {
